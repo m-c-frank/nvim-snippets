@@ -1,7 +1,7 @@
 {
     "iferr": {
         "prefix": "iferr",
-        "body": "if err != nil {\nreturn err\n}",
+        "body": "if err != nil {\n    return err\n}",
         "description": "Snippet for handling error"
     }
 }
