@@ -3,5 +3,10 @@
         "prefix": "iferr",
         "body": "if err != nil {\n    return err\n}",
         "description": "Snippet for handling error"
+    },
+    "iferrmain": {
+        "prefix": "iferrmain",
+        "body": "if err != nil {\n    fmt.Println(\"Error:\", err)\n    return \n}",
+        "description": "Snippet for handling error in main"
     }
 }
